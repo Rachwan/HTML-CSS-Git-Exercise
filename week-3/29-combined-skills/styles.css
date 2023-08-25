@@ -1,1 +1,40 @@
 /* Add your own CSS code below */
+footer p .heart {
+  color: #c85308;
+}
+@media (min-width: 993px) {
+  .hero .hero__title {
+    font-size: 50px;
+  }
+}
+.site-header .main-nav .main-nav__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (min-width: 768px) {
+  .site-wrapper .site-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .views {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .view-list__item {
+    margin: 0 5px;
+  }
+  .views__all {
+    margin-left: auto;
+  }
+}
+.main-article {
+  max-width: 50em;
+}
+.site-content {
+  display: flex;
+  justify-content: center;
+}
+.main-article p {
+  line-height: 2;
+}
